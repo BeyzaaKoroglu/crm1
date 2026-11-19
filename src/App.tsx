@@ -12,7 +12,7 @@ type Route =
   | { name: 'contacts' }
   | { name: 'deals'; id?: string }
   | { name: 'tasks' }
-  | { name: 'inbox' }
+  | { name: 'inbox' } 
   | { name: 'people' }
 
 function parse(path: string): Route {
