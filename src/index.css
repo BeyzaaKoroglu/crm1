@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: Figtree, ui-sans-serif, system-ui, sans-serif;
+  --font-serif: Newsreader, ui-serif, Georgia, serif;
+  --color-ink: #1c1917;
+  --color-paper: #f6f3ee;
+  --color-line: #e7e0d6;
+  --color-copper: #9a3412;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
